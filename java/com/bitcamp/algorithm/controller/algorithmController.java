@@ -1,6 +1,7 @@
 package com.bitcamp.algorithm.controller;
 
 import com.bitcamp.algorithm.domain.*;
+import com.bitcamp.algorithm.service.TeamInfo;
 
 import java.util.Scanner;
 
@@ -30,8 +31,12 @@ public class algorithmController {
         Greedy greedy = new Greedy();
         BruteForce bruteForce = new BruteForce();
         Dp dp = new Dp();
+        TeamInfo teamInfo = new TeamInfo();
+        TeamDTO team = new TeamDTO();
 
-        while (true) {
+        teamInfo.infoPrint(team);
+
+        /*while (true) {
             System.out.println("[MENU] 0.EXIT\n" +
                     "[홍정명] 1. dfs \t" +
                     "2. bfs \t" +
@@ -88,6 +93,6 @@ public class algorithmController {
                 default:
                     System.out.println("Wrong Number");
             }
-        }
+        }*/
     }
 }
