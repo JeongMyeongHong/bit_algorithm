@@ -26,7 +26,7 @@ public class TeamDTO {
             "DFS", "Sort", "BinSearch", "Hash", "BruteForce",
             "BFS", "Heap", "Graph", "Greedy", "DP",
             "Stack", "", "", "", "",
-            "Queue", "", "", "", ""};
+            "Queue", "", "", "", "",};
 
     public String[] getFour() {
         return four;
