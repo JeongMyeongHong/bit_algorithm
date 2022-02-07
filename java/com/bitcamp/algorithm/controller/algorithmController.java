@@ -1,7 +1,6 @@
 package com.bitcamp.algorithm.controller;
 
 import com.bitcamp.algorithm.domain.*;
-import com.bitcamp.algorithm.service.TeamInfo;
 
 import java.util.Scanner;
 
@@ -31,10 +30,7 @@ public class algorithmController {
         Greedy greedy = new Greedy();
         BruteForce bruteForce = new BruteForce();
         Dp dp = new Dp();
-        TeamInfo teamInfo = new TeamInfo();
-        TeamDTO team = new TeamDTO();
 
-        teamInfo.infoPrint(team);
 
         /*while (true) {
             System.out.println("[MENU] 0.EXIT\n" +
